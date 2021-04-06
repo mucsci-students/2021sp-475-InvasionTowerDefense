@@ -117,7 +117,7 @@ public class gameManager : MonoBehaviour
         
 
         waveNum.text = "Wave " + waveNumber;
-        enemysToSpawn.text = enemiesAlive + " alive, " + remaining + " left to spawn";
+        enemysToSpawn.text = remaining + " enemies left to spawn";
         moneyUI.text = "Money: $" + money;
         healthTxt.text = "Health: " + health;
 

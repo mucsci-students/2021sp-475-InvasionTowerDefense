@@ -154,7 +154,7 @@ RectTransform:
   m_Children:
   - {fileID: 2068965734}
   m_Father: {fileID: 784267532}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -336,25 +336,22 @@ MonoBehaviour:
   m_Text: 'Place towers on the map to fend off the enemies.
 
 
-    You lose when an
-    enemy reaches the end of the path.
+    Survive as many
+    waves of enemies as possible.
 
 
-    Survive as many waves of enemies as
-    possible.
+    Money is earned from killing enemies and
+    clearing rounds.
 
 
-    Money is earned from killing enemies and clearing rounds.
+    Use money to buy new towers and upgrade existing towers.
 
 
-    Use
-    money to buy new towers and upgrade existing towers.
+    There
+    are many different tower types and enemy types.
 
-
-    There are many different
-    tower types and enemy types.
-
-    Click the buttons below to learn about them.
+    Click the buttons below
+    to learn about them.
 
 
 '
@@ -607,10 +604,10 @@ RectTransform:
   m_Children:
   - {fileID: 1210848633}
   - {fileID: 364654883}
+  - {fileID: 960258633}
   - {fileID: 1090901257}
   - {fileID: 1660287321}
   - {fileID: 311800622}
-  - {fileID: 960258633}
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -649,7 +646,7 @@ RectTransform:
   m_LocalScale: {x: 1.5, y: 1.5, z: 1}
   m_Children: []
   m_Father: {fileID: 784267532}
-  m_RootOrder: 5
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -708,7 +705,13 @@ MonoBehaviour:
     main menu, where you can start another game.
 
 
-'
+    When an enemy reaches the
+    end of the path,
+
+    it takes away from your health. When your health
+
+    reaches
+    0, the game is over.'
 --- !u!222 &960258635
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -750,7 +753,7 @@ RectTransform:
   m_Children:
   - {fileID: 1618322811}
   m_Father: {fileID: 784267532}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -1127,7 +1130,7 @@ RectTransform:
   m_Children:
   - {fileID: 1162577258}
   m_Father: {fileID: 784267532}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}

@@ -4409,6 +4409,21 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6641964224296310139, guid: 22a03492f812b7b47a7127cf5f726720,
+        type: 3}
+      propertyPath: onValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1964746706}
+    - target: {fileID: 6641964224296310139, guid: 22a03492f812b7b47a7127cf5f726720,
+        type: 3}
+      propertyPath: onValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: doubleSpeed
+      objectReference: {fileID: 0}
+    - target: {fileID: 6641964224296310139, guid: 22a03492f812b7b47a7127cf5f726720,
+        type: 3}
+      propertyPath: onValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 22a03492f812b7b47a7127cf5f726720, type: 3}
 --- !u!114 &1614242752 stripped
