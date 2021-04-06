@@ -1,0 +1,137 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3633809054356204292
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3633809054356204294}
+  - component: {fileID: 3633809054356204293}
+  - component: {fileID: 1198586205}
+  - component: {fileID: 1198586206}
+  - component: {fileID: 933031941}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: GameManager
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3633809054356204294
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3633809054356204292}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3633809054356204293
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3633809054356204292}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c89405641186c874db070241ef823e9a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pauseScreen: {fileID: 0}
+  defaultUI: {fileID: 0}
+  buyTowerUI: {fileID: 0}
+  waveNum: {fileID: 0}
+  enemysToSpawn: {fileID: 0}
+  moneyUI: {fileID: 0}
+  healthTxt: {fileID: 0}
+  TimeRemaining: {fileID: 0}
+  waveSize: 4
+  scaleAmount: 1.5
+  scaleDecay: 0.25
+  spawnDelay: 1
+  waveNumber: 1
+  timeBetweenWaves: 25
+  tankPercentage: 0.25
+  fastPercentage: 0.25
+  bossPercentage: 0.1
+  basePercentage: 0.4
+  money: 0
+  baseEnemy: {fileID: 0}
+  fastEnemy: {fileID: 0}
+  tankEnemy: {fileID: 0}
+  bossEnemy: {fileID: 0}
+  spawnPoint: {fileID: 0}
+  enemiesAlive: 0
+  remaining: 0
+  timeCounter: 0
+  whole_map: {fileID: 0}
+  block: {fileID: 0}
+  towerName: {fileID: 0}
+  towerInfo: {fileID: 0}
+  path: []
+  Towers:
+  - {fileID: 4329336561557738998, guid: 649a825b41fff7d4c9c547f5996ecd05, type: 3}
+  - {fileID: 5028642564326559729, guid: 33d4989a6e734954d9f0e786f4d7a77b, type: 3}
+  - {fileID: 991893748980305477, guid: aab2822885c5c614e8640512f11c48ea, type: 3}
+  health: 100
+  towerImages:
+  - {fileID: 21300000, guid: f68a55de641761e4185af0337e6c6f81, type: 3}
+  - {fileID: 21300000, guid: 6e905dd8d99790c47b947b11f2eceeaa, type: 3}
+  - {fileID: 21300000, guid: 9c4da9f603e9e53428c25600b932edfb, type: 3}
+  towImage: {fileID: 0}
+  fastMode: 0
+--- !u!114 &1198586205
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3633809054356204292}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f231c4fb786f3946a6b90b886c48677, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_HorizontalAxis: Horizontal
+  m_VerticalAxis: Vertical
+  m_SubmitButton: Submit
+  m_CancelButton: Cancel
+  m_InputActionsPerSecond: 3
+  m_RepeatDelay: 0.5
+  m_ForceModuleActive: 0
+--- !u!114 &1198586206
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3633809054356204292}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76c392e42b5098c458856cdf6ecaaaa1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_FirstSelected: {fileID: 0}
+  m_sendNavigationEvents: 1
+  m_DragThreshold: 10
+--- !u!114 &933031941
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3633809054356204292}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7e573bd8704266a4db2ae5eb9e5237bb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
